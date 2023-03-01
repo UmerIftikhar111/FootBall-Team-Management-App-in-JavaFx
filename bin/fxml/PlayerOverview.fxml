@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="645.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.PlayerController">
+   <children>
+      <TableView fx:id="playerTable" layoutX="2.0" layoutY="161.0" prefHeight="484.0" prefWidth="280.0">
+        <columns>
+          <TableColumn fx:id="firstNameCol" prefWidth="127.0" text="FirstName" />
+          <TableColumn fx:id="lastNameCol" prefWidth="152.0" text="LastName" />
+        </columns>
+      </TableView>
+      <Pane layoutX="281.0" layoutY="159.0" prefHeight="473.0" prefWidth="461.0" style="-fx-background-color: grey;">
+         <children>
+            <Label layoutX="118.0" layoutY="262.0" prefHeight="17.0" prefWidth="91.0" text="Position" />
+            <Label layoutX="114.0" layoutY="107.0" prefHeight="17.0" prefWidth="84.0" text="First Name" />
+            <Label layoutX="114.0" layoutY="156.0" prefHeight="17.0" prefWidth="71.0" text="Last Name" />
+            <Label layoutX="117.0" layoutY="310.0" prefHeight="17.0" prefWidth="65.0" text="Team" />
+            <Label layoutX="117.0" layoutY="205.0" prefHeight="17.0" prefWidth="65.0" text="Age" />
+            <Label layoutX="118.0" layoutY="14.0" prefHeight="27.0" prefWidth="160.0" text="Player Details">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="ed25" layoutX="352.0" layoutY="427.0" mnemonicParsing="false" onAction="#addNewPlayer" prefHeight="25.0" prefWidth="91.0" text="Add Player" />
+            <Button fx:id="dfsf4" layoutX="355.0" layoutY="66.0" mnemonicParsing="false" onAction="#showTrophiesDialog" prefHeight="25.0" prefWidth="84.0" text="Trophies" />
+            <Label fx:id="lName" layoutX="245.0" layoutY="156.0" prefHeight="17.0" prefWidth="110.0" text="Label" />
+            <Label fx:id="salary" layoutX="245.0" layoutY="366.0" prefHeight="17.0" prefWidth="110.0" text="Label" />
+            <Label fx:id="age" layoutX="245.0" layoutY="205.0" prefHeight="17.0" prefWidth="102.0" text="Label" />
+            <Label fx:id="position" layoutX="245.0" layoutY="262.0" prefHeight="17.0" prefWidth="121.0" text="Label" />
+            <Label fx:id="team" layoutX="245.0" layoutY="310.0" prefHeight="17.0" prefWidth="121.0" text="Label" />
+            <Label layoutX="117.0" layoutY="366.0" prefHeight="17.0" prefWidth="65.0" text="Salary" />
+            <Label fx:id="fName" layoutX="241.0" layoutY="107.0" prefHeight="17.0" prefWidth="110.0" text="Label" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

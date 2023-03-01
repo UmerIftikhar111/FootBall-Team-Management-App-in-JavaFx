@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="652.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.RootLayoutController">
+   <children>
+      <HBox prefHeight="35.0" prefWidth="701.0" style="-fx-background-color: grey;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="98.0" text="File" />
+            <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="98.0" text="Edit" />
+            <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="98.0" text="Help" />
+         </children>
+      </HBox>
+      <Pane layoutY="35.0" prefHeight="617.0" prefWidth="701.0">
+         <children>
+            <Button fx:id="er55" layoutX="299.0" layoutY="326.0" mnemonicParsing="false" onAction="#redirect" prefHeight="25.0" prefWidth="130.0" text="Poceed" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

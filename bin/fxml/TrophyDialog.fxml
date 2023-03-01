@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="467.0" prefWidth="503.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.TrophiesOverviewController">
+   <children>
+      <TableView fx:id="trophyTable" layoutX="-1.0" layoutY="-2.0" prefHeight="426.0" prefWidth="503.0">
+        <columns>
+          <TableColumn fx:id="tNameCol" prefWidth="184.0" text="Name" />
+          <TableColumn fx:id="tYearCol" prefWidth="119.0" text="Year" />
+            <TableColumn fx:id="tTeamCol" prefWidth="198.0" text="Team" />
+        </columns>
+      </TableView>
+      <Button fx:id="hgg6766" layoutX="156.0" layoutY="441.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="173.0" text="Back" />
+   </children>
+</AnchorPane>
